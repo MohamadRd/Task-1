@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 0.3vw 5.6vh;
+}
+
+nav img {
+    width: 128px;
+    height: 34px;
+}
+
+nav .nav_items ul {
+    list-style: none;
+    display: flex;
+    padding: 2vh;
+    padding-right: 10.78vw;
+    gap: 4vw;
+}
+
+nav .nav_items ul a:hover,
+nav .nav_items ul a.active {
+    color: #0099ae;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero h1 {
+    padding-top: 145px;
+    padding-left: 110px;
+    color: #0099ae;
+    font-size: 50px;
+}
+
+.hero span {
+    padding-left: 243px;
+    font-size: small;
+    color: #aaa5a5;
+}
+
+.hero .btn {
+    padding-left: 227px;
+    padding-top: 50px;
+}
+
+.hero button {
+    background-color: #f1f1f1;
+    color: black;
+    border: 2px solid #0099ae;
+    border-radius: 5px;
+    padding: 8px 25px;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: #0099ae;
+}
+
+.btn a:hover {
+    color: white;
+}
+
+p.one {
+    padding-top: 40px;
+    padding-left: 62px;
+}
+
+p.two {
+    padding-left: 76px;
+}
+
+p.three {
+    padding-left: 191px;
+}
+
+.hill {
+    position: absolute;
+    left: 58vw;
+    bottom: 28vh;
+}
+
+.house {
+    position: absolute;
+    left: 66vw;
+    bottom: 23vh;
+}
+
+.sun {
+    position: absolute;
+    left: 67.5vw;
+    bottom: 42vh;
+}
+
+.birds1 {
+    position: absolute;
+    left: 58vw;
+    bottom: 40vh;
+}
+
+.birds2 {
+    position: absolute;
+    left: 92vw;
+    bottom: 40vh;
+}
